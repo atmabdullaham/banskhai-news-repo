@@ -40,3 +40,20 @@ p{
     text-align: left;
     padding-left: 120px;
 }
+@media screen and (max-width: 480px) {
+    /* Adjust font sizes */
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+    /* Reduce image width */
+    img {
+      max-width: 100%;
+    }
+  }
+  
